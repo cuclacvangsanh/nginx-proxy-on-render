@@ -1,9 +1,0 @@
-services:
-  - name: nginx-proxy
-    type: web
-    runtime: docker
-    repo: https://github.com/cuclacvangsanh/nginx-proxy-on-render
-    plan: free
-    envVars:
-      - key: RENDER_EXTERNAL_HOSTNAME
-        value: nginx-proxy.onrender.com
