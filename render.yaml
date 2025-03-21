@@ -1,0 +1,9 @@
+services:
+  - name: nginx-proxy
+    type: web
+    runtime: docker
+    repo: https://github.com/YOUR_GITHUB_REPO
+    plan: free
+    envVars:
+      - key: RENDER_EXTERNAL_HOSTNAME
+        value: nginx-proxy.onrender.com
